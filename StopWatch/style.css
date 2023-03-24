@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timeContainer{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 4px 4px 30px rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    background: rgb(15, 15, 15);
+    overflow: hidden;
+}
+
+.timerButtons{
+    margin: 5px 0px;
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    border-color: gray;
+    background-color: rgb(145, 145, 145);
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+
+#timeDisplay{
+    font-size: 75px;
+    color: rgb(116, 116, 116);
+    font-family: consolas, monospace;
+}
